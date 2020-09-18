@@ -10,7 +10,7 @@ body{
       }
       .month {
         text-allign: center;
-        background-color: gray;
+        background-color: ;
         font-size: 2.5em; 
         letter-spacing: 5px; 
         color: #FF0099; 
@@ -23,19 +23,19 @@ body{
         text-allign: center; 
         font-size: 16px; 
         border-collapse: collapse; 
-        border: 1px solid #FF00FF;   
+        border: 1px solid #FFFFFF;   
       }
       tr, th, td {
         padding: 20px;
       }
       th {
-        background: gray;
-        color: #00FFFF; 
+        background: ;
+        color: ; 
       }
       td {
-        background: gray; 
+        background: White; 
       }
       #bmonth {
         font-size: 20px;
-        background: gray;
+        background: White;
       }
