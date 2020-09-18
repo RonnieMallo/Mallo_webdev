@@ -1,6 +1,6 @@
 body{
         background-color: black;
-   background-image: url("https://ronniemallo.github.io/Mallo_webdev/calendar.jpg");
+   background-image: url("https://zvarquez.github.io/Varquez_WebDev_Midterm/calendar.jpg");
    
       }
       .container {
@@ -10,12 +10,12 @@ body{
       }
       .month {
         text-allign: center;
-        background-color: ;
+        background-color: gray;
         font-size: 2.5em; 
         letter-spacing: 5px; 
         color: #FF0099; 
         padding: 25px; 
-        border: 1px solid #000000; 
+        border: 1px solid #FF0099; 
       }
       table, th, td {
         width: 100%; 
@@ -23,19 +23,19 @@ body{
         text-allign: center; 
         font-size: 16px; 
         border-collapse: collapse; 
-        border: 1px solid #000000;   
+        border: 1px solid #FF00FF;   
       }
       tr, th, td {
         padding: 20px;
       }
       th {
-        background: ;
-        color: ; 
+        background: gray;
+        color: #00FFFF; 
       }
       td {
-        background: ; 
+        background: gray; 
       }
       #bmonth {
         font-size: 20px;
-        background: ;
+        background: gray;
       }
