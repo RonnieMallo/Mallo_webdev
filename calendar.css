@@ -15,7 +15,7 @@ body{
         letter-spacing: 5px; 
         color: #FF0099; 
         padding: 25px; 
-        border: 1px solid #FFFFFF; 
+        border: 1px solid #000000; 
       }
       table, th, td {
         width: 100%; 
@@ -23,7 +23,7 @@ body{
         text-allign: center; 
         font-size: 16px; 
         border-collapse: collapse; 
-        border: 1px solid #FFFFFF;   
+        border: 1px solid #000000;   
       }
       tr, th, td {
         padding: 20px;
@@ -33,9 +33,9 @@ body{
         color: ; 
       }
       td {
-        background: White; 
+        background: ; 
       }
       #bmonth {
         font-size: 20px;
-        background: White;
+        background: ;
       }
