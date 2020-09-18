@@ -1,7 +1,7 @@
 body{
         background-color: black;
    background-image: url("https://ronniemallo.github.io/Mallo_webdev/calendar.jpg");
-   
+        backgound - repeat: no-repeat;
       }
       .container {
         max-width: 800px; 
