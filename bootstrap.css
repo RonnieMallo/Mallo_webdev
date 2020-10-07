@@ -1,0 +1,48 @@
+body{
+        background-color: black;
+   background-image: url("https://ronniemallo.github.io/Mallo_webdev/Cong%20Tv%20Logo.jpg");
+ backgound - repeat: no-repeat;
+      }
+      .container {
+        max-width: 800px; 
+        margin: auto; 
+        font-family: sans-serif;
+}
+  img {
+  border: 5px solid#000000;
+  border-radius: 4px;
+  padding: 5px;
+  width: 400px;
+}
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 80%;
+
+}
+
+td, th {
+  border: 2px solid black;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+h1{
+  color: Black; 
+}
+p {
+  color: Black; 
+}
+.image {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  width: 750px; 
+}
+hr.new {
+  border: 10px solid Black;
+  border-radius: 5px;
+}
