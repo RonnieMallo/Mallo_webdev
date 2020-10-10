@@ -1,28 +1,12 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=">
-  <title></title>
-</head>
-<body>
-  <!--
-  <table border="1">
-    <tr>
-      <td><em>Row1</em> Col1</td>
-      <td>Row1 Col2</td>
-    </tr>
-    <tr>
-      <td>Row2 Col1</td>
-      <td>Row2 Col2</td>
-    </tr>    
-  </table>
-  -->
-
+<html> 
+  <head> 
+    <title> register </title> 
+ <link rel="stylesheet" type="text/css" href="">
       <legend></legend>
       <table>
         <tr>
-          <td>Your Name:</td>
+          <td>Name:</td>
           <td><input type="text" 
                      id="txtName" 
                      name="txtName"
@@ -41,7 +25,7 @@
           </td>
         </tr>
         <tr>
-          <td>User Name:</td>
+          <td>UserName:</td>
           <td><input type="text" 
                      id="txtName" 
                      name="txtName"
@@ -55,7 +39,21 @@
         </td>
        </tr>
      <tr>
-       <td>Birth Date:</td>
+       <td>BirthDay:</td>
+          <td colspan="2">
+            <select name="drpLoginType" id="drpLoginType">
+              <option value="January">January</option>
+              <option value="February">February</option>
+              <option value="March">March</option>
+              <option value="April">April</option>
+               <option value="May">May</option>
+              <option value="June">June</option>
+              <option value="July">July</option>
+              <option value="Augost">Augost</option>
+              <option value="September">September</option>
+              <option value="October">October</option>
+              <option value="November">November</option>
+              <option value="December">December</option>
           <td colspan="2">
             <select name="drpLoginType" id="drpLoginType">
               <option value="01">01</option>
@@ -89,32 +87,6 @@
               <option value="29">29</option>
               <option value="30">30</option>
               <option value="31">31</option>
-            </select>
-
-          </td>
-        </tr>
-
-        <tr> 
-       <td></td>
-          <td colspan="2">
-            <select name="drpLoginType" id="drpLoginType">
-              <option value="January">January</option>
-              <option value="February">February</option>
-              <option value="March">March</option>
-              <option value="April">April</option>
-               <option value="May">May</option>
-              <option value="June">June</option>
-              <option value="July">July</option>
-              <option value="Augost">Augost</option>
-              <option value="September">September</option>
-              <option value="October">October</option>
-              <option value="November">November</option>
-              <option value="December">December</option>
-            </select>
-          </td>
-  </tr>
-  <tr>
-    <td></td>
           <td colspan="2">
             <select name="drpLoginType" id="drpLoginType">
               <option value="2020">2020</option>
@@ -153,17 +125,6 @@
     </td>
   </tr>
   <tr>
-     <td colspan="2">
-            Register As
-            <select name="drpLoginType" id="drpLoginType">
-              <option value="Guest">Guest</option>
-              <option value="Admin">Admin</option>
-              <option value="SuperUser">Super &nbsp;&nbsp;&nbsp;&nbsp; User</option>
-              <option value="Business Owner">Business Owner</option>
-            </select>
-    </td>
-  </tr>
-  <tr>
           <td>Sex</td>
           <td>
             <input type="radio" 
@@ -181,23 +142,12 @@
           </td>
           </tr>
         <tr>
-          <td colspan="2">
-            <input type="checkbox" 
-                   id="cbxPolicy1"
-                   name="cbxPolicy1"
-                   value="I accept lorem ipsum"/>
-            <label for="cbxPolicy1">I accept the terms and conditions</label>
-          </td>
-        </tr>        
-
         <tr>
           <td colspan="2" align="center">
             <button id="btnLogin"
 
                     onClick="alert(document.getElementById('txtName').value)">Submit</button>
        <td colspan="2" align="left">
-            <button id="btnLogin"      onClick="alert(document.getElementById('txtName').value)">Reset</button>
-
           </td>
         </tr>
       </table>
